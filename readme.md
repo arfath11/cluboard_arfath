@@ -61,7 +61,7 @@ docker-compose up -d
 docker exec -it django_container_usingcompose /bin/bash
 ```
 
- - Create superuser in cmd prompt`python manage.py createsuperuser`
+ - Create superuser in cmd prompt.  `python manage.py createsuperuser`
  - Enter desired credentials
  - You can  now do development 	
 
