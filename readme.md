@@ -86,5 +86,8 @@ http://127.0.0.1:8000/admin
 	
 <h3>DockerCompose Explanation<h3>
 	 
-	
-
+![](imagess/dockerfileee.png)	
+- building the docker image from docker file using the build . command 
+- establishing connectioing between local host 8000 port and  container 8000
+- tag of image = django_arfath_compose
+- Naming the container as django_container_usingcompose
