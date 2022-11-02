@@ -42,7 +42,7 @@ This Application is Containerized using [<b>DOCKER<b>](https://www.docker.com/)
 - Enter into the  main folder (i.e app ) of the project and run the below commands
 	To  Create image and start container in detached mode
 ``` shell 
-docker-compose up -d .
+docker-compose up -d 
 ```
 - A container has now been created and is running in background 	
 	
