@@ -1,0 +1,27 @@
+name: Docker Image builder
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Build the Docker image
+      env:
+        IMGNME: mdarfath/cluboard_doc:${{ github.run_number}}
+        TAGSS: ${{ github.run_number}}
+        REPONME: mdarfath/myfirst_doc_repo
+      run: |
+        echo "${{ secrets.DOCKERPW }}" | docker login -u "mdarfath" --password-stdin
+        docker image build -t $IMGNME .
+        docker tag  $IMGNME  $REPONME:$TAGSS
+        
+        docker push $REPONME:$TAGSS
