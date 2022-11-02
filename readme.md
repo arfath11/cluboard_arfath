@@ -39,11 +39,12 @@ This Application is Containerized using [<b>DOCKER<b>](https://www.docker.com/)
 	
 <h3>To create container:</h3>
 
--  Enter into the  main folder of the project and run the below commands
+- Enter into the  main folder of the project and run the below commands
 	To  Create image and start container in detached mode
 ``` shell 
 docker-compose up -d .
 ```
+- A container has now been created and is running in background 	
 	
 
  
@@ -72,5 +73,10 @@ docker exec -it django_container_usingcompose /bin/bash
 http://127.0.0.1:8000/admin
 
 <br>
+	
+<h3>Dockerfile Explanation<h3>
+	
+<img width="684" alt="Screenshot 2022-11-02 at 9 29 30 PM" src="https://user-images.githubusercontent.com/74487575/199539370-6a876f53-cd96-4fb1-a76c-9d1d9ec741b5.png">
+	
 
 
