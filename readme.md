@@ -41,8 +41,9 @@ This Application is Containerized using [<b>DOCKER<b>](https://www.docker.com/)
 
 -  Enter into the  main folder of the project and run the below commands
 	To  Create image and start container in detached mode
-	``` shell 
-	    docker-compose up -d .```
+``` shell 
+docker-compose up -d .
+```
 	
 
  
@@ -54,9 +55,10 @@ This Application is Containerized using [<b>DOCKER<b>](https://www.docker.com/)
     While the container is running in  detached mode
 	
  - Enter into interactive mode 
-	```shell
-	docker exec -it django_container_usingcompose /bin/bash``` 
-	
+ 
+``` shell 
+docker exec -it django_container_usingcompose /bin/bash
+```
 
  - `python manage.py createsuperuser`
  - Enter desired credentials
