@@ -1,5 +1,5 @@
 # Containerized Cluboard 
-This is <b>Mohammed Arfath<b> student of NTIK 2nnd year  .
+This is <b>Mohammed Arfath<b> student of NTIK 2nd year  .
 	
 This is my final submission for the task of containerization of cluboard app under Systems SIG recruitments	
 
@@ -74,7 +74,7 @@ http://127.0.0.1:8000/admin
 
 <br>
 	
-<h3>Dockerfile Explanation<h3>
+<h3>Dockerfile Explanation</h3>
 	
 <img width="684" alt="Screenshot 2022-11-02 at 9 29 30 PM" src="https://user-images.githubusercontent.com/74487575/199539370-6a876f53-cd96-4fb1-a76c-9d1d9ec741b5.png">
 	
@@ -83,11 +83,12 @@ http://127.0.0.1:8000/admin
 - installing all  dependencies using pip3 install `-r requirements.txt`	
 - The RUN command  executes command on the image and to create layers 
 - `CMD [ "python3","manage.py","runserver", "0.0.0.0:8000"]` 8000 port is assigned to the application server after starting it
+<br>	
 	
-<h3>DockerCompose Explanation<h3>
+<h3>DockerCompose Explanation</h3>
 	 
 ![](imagess/dockerfileee.png)	
 - building the docker image from docker file using the build . command 
-- establishing connectioing between local host 8000 port and  container 8000
+- establishing connectiong between local host 8000 port and  container 8000
 - tag of image = django_arfath_compose
 - Naming the container as django_container_usingcompose
