@@ -1,6 +1,8 @@
 # Containerized Cluboard 
 A Full-Stack Web Application to facilitate sharing resources in college clubs. Clubs have resources that any of their members can borrow upon request. Members can borrow resources when approved by the convener of the club.
 
+This Application is Containerized using [<b>DOCKER<b>](https://www.docker.com/)
+
 Three roles exist, namely, Admin, Convenor and Member.
 - Admin - Can give roles and add new clubs & members
 - Members - Can request for resources following a request-approval flow
