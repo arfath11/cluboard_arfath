@@ -76,7 +76,7 @@ http://127.0.0.1:8000/admin
 	
 <h3>Dockerfile Explanation<h3>
 	
-&emsp<img width="684" alt="Screenshot 2022-11-02 at 9 29 30 PM" src="https://user-images.githubusercontent.com/74487575/199539370-6a876f53-cd96-4fb1-a76c-9d1d9ec741b5.png">
+<img width="684" alt="Screenshot 2022-11-02 at 9 29 30 PM" src="https://user-images.githubusercontent.com/74487575/199539370-6a876f53-cd96-4fb1-a76c-9d1d9ec741b5.png">
 	
 - Used `python:3.9.0-slim-buster ` as the base image  since its light weight linux and contains python 3.9 
 - `app`  Making it a main root directory fo my prokject where all file will be stored 
