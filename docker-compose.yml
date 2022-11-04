@@ -4,7 +4,7 @@ services:
     build: .
 
     ports:
-       - "8000:8000"
+       - "8000:8080"
     image: app:django_arfath_compose
     container_name: django_container_usingcompose
       
