@@ -1,7 +1,4 @@
 # Containerized Cluboard 
-This is <b>Mohammed Arfath<b> student of NITK 2nd year  .
-	
-This is my final submission for the task of containerization of cluboard app under Systems SIG recruitments	
 
 <h2> Cluboard </h2>	
 A Full-Stack Web Application to facilitate sharing resources in college clubs. Clubs have resources that any of their members can borrow upon request. Members can borrow resources when approved by the convener of the club.
